@@ -6,7 +6,7 @@ public class Main {
         //    число, буквосочетание, слово или текст, одинаково читающееся
         //    в обоих направлениях
 
-        String string = "_abcdeffedcba_";
+        String string = "11210";
         int offset = 0;
         int l = string.length() - 1;
         boolean palindrome = true;
@@ -17,7 +17,7 @@ public class Main {
         }
 
         System.out.print("String " + string + " is ");
-        if (!palindrome) System.out.println("NOT ");
+        if (!palindrome) System.out.print("NOT ");
         System.out.println("a palindrome");
     }
 }
